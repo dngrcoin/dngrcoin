@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DNGRcoin
+Comment=DNGRcoin P2P Cryptocurrency
+Exec=dngrcoin-qt %u
+Terminal=false
+Type=Application
+Icon=dngrcoin128
+MimeType=x-scheme-handler/dngrcoin;
+Categories=Office;Finance;
+Name[en_US]=dngrcoin-qt.desktop

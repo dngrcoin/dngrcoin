@@ -1,0 +1,6 @@
+usr/local/bin/dngrcoin-qt usr/bin
+share/pixmaps/dngrcoin32.xpm usr/share/pixmaps
+share/pixmaps/dngrcoin16.xpm usr/share/pixmaps
+share/pixmaps/dngrcoin128.png usr/share/pixmaps
+debian/dngrcoin-qt.desktop usr/share/applications
+debian/dngrcoin-qt.protocol usr/share/kde4/services/

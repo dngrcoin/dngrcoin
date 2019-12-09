@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dngrcoin_bg.qm</file>
+        <file alias="de">locale/dngrcoin_de.qm</file>
+        <file alias="en">locale/dngrcoin_en.qm</file>
+        <file alias="es">locale/dngrcoin_es.qm</file>
+        <file alias="fi">locale/dngrcoin_fi.qm</file>
+        <file alias="fr">locale/dngrcoin_fr.qm</file>
+        <file alias="it">locale/dngrcoin_it.qm</file>
+        <file alias="ja">locale/dngrcoin_ja.qm</file>
+        <file alias="pl">locale/dngrcoin_pl.qm</file>
+        <file alias="pt">locale/dngrcoin_pt.qm</file>
+        <file alias="ru">locale/dngrcoin_ru.qm</file>
+        <file alias="sk">locale/dngrcoin_sk.qm</file>
+        <file alias="sv">locale/dngrcoin_sv.qm</file>
+        <file alias="vi">locale/dngrcoin_vi.qm</file>
+        <file alias="zh_CN">locale/dngrcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dngrcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

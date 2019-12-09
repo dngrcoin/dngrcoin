@@ -1,0 +1,3 @@
+debian/manpages/dngrcoind.1
+debian/manpages/dngrcoin.conf.5
+debian/manpages/dngrcoin-cli.1
