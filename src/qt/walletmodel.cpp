@@ -1,5 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The DNGRcoin developers
+// Copyright (c) 2014-2018 The ZCOREcoin developers
+// Copyright (c) 2019-2020 The DNGRcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

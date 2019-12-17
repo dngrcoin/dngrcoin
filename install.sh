@@ -23,7 +23,7 @@ add-apt-repository -y ppa:bitcoin/bitcoin
 apt-get update
 apt-get install libdb4.8-dev libdb4.8++-dev -y
 cd /opt/dngrcoin/
-git clone https://github.com/dngrcoin-coin/dngrcoin-source.git 
+git clone https://github.com/dngrcoin/dngrcoin.git 
 cd /opt/dngrcoin/dngrcoin-source/
 ls -l
 #dd if=/dev/zero of=/swapfile bs=1024 count=2M

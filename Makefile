@@ -227,7 +227,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/dngrcoin-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING INSTALL \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
+	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
+	build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -297,7 +298,7 @@ CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
 CLIENT_VERSION_MINOR = 7
-CLIENT_VERSION_REVISION = 0
+CLIENT_VERSION_REVISION = 1
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2019
 CPP = gcc -E
@@ -383,10 +384,10 @@ OTOOL64 =
 PACKAGE = dngrcoin
 PACKAGE_BUGREPORT = https://github.com/dngrcoin-coin/dngrcoin-source/issues
 PACKAGE_NAME = DNGRcoin
-PACKAGE_STRING = DNGRcoin 1.7.0
+PACKAGE_STRING = DNGRcoin 1.7.1
 PACKAGE_TARNAME = dngrcoin
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.7.0
+PACKAGE_VERSION = 1.7.1
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
@@ -437,7 +438,7 @@ TESTDEFS =  -DBOOST_TEST_DYN_LINK
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.7.0
+VERSION = 1.7.1
 WINDOWS_BITS = 
 WINDRES = 
 X11XCB_CFLAGS = 
