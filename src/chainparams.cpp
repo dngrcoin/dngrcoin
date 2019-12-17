@@ -88,7 +88,7 @@ public:
         consensus.BIP34Height = 0; // FIX
         consensus.BIP34Hash = uint256S("0x00000a237b793f047e553def81077e61d79655fdaf51888d0fb9ca65d84061b2"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan =  40 * 1.5 * 60; // DNGRcoin: 1 hour, 45 blocks  // used only for KGW and Bitcoin Diff
+        consensus.nPowTargetTimespan =  40 * 1.5 * 60; // DNGRcoin: 1 hour, 40 blocks  // used only for KGW and Bitcoin Diff
         consensus.nPowTargetSpacing =  1.5 * 60;      // DNGRcoin: 90 seconds // soft change to nPowAgo2018TargetSpacing after mPowDGWReconfigureAgo2018Height
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -131,6 +131,8 @@ public:
 
         vSeeds.push_back(CDNSSeedData("147.78.65.225", "147.78.65.225"));
         vSeeds.push_back(CDNSSeedData("3.220.244.148", "3.220.244.148"));
+        vSeeds.push_back(CDNSSeedData("185.189.13.35", "185.189.13.35"));
+        vSeeds.push_back(CDNSSeedData("18.194.135.201", "18.194.135.201"));
        
 
         //vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.

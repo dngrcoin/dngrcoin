@@ -1,4 +1,4 @@
-![dngrcoin logo](https://dngrcoin.ch/github/logow.png)
+![dngrcoin logo](https://github.com/dngrcoin/dngrcoin/blob/master/src/qt/res/icons/bitcoin.png)
 
 What is DNGRcoin?
 ----------------
@@ -7,7 +7,7 @@ DNGRcoin was born out of a desire to create a cryptocurrency that is truly acces
 
 For more information:
 
-* https://dngrcoin.cf
+* http://dngrcoin.cf
 
 
 ```
@@ -22,10 +22,10 @@ Development Process
 -------------------
 
 The default branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/dngrcoin-coin/dngrcoin-source/tags) are created
+completely stable. [Tags](https://github.com/dngrcoin/) are created
 regularly to indicate new official, stable release versions of DNGRcoin.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
- <a href="https://twitter.com/intent/follow?screen_name=DNGRcoinCrypto"><img src="https://img.shields.io/twitter/follow/DNGRcoinCrypto.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
+
