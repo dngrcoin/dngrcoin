@@ -25,7 +25,10 @@ FOR INSTALL:
 12. ./configure
 13. make
 14. make install
-======================================================================================================================
+
+
+==============================================================
+
 
    
     Linux (ubuntu) build for  MacOSX
@@ -49,7 +52,11 @@ FOR INSTALL:
  
 When finished, it will produce `DNGRcoin.dmg`
 
-`======================================================================
+
+`=================================== 
+
+
+
    May need to install libraries
 sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
 sudo apt-get install libcap-dev
@@ -67,8 +74,8 @@ sudo apt-get install build-essential libssl-dev libboost-all-dev libdb5.3 libdb5
 sudo apt-get install git ntp make g++ gcc autoconf cpp ngrep iftop sysstat autotools-dev pkg-config libminiupnpc-dev libzmq3-dev -y
 sudo apt-get install curl librsvg2-bin libtiff-tools bsdmainutils cmake imagemagick libcap-dev libz-dev libbz2-dev python-setuptools
 sudo apt-get install g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold
-        =================================================================
-``
+
+        =========================================``
 
 License
 -------
