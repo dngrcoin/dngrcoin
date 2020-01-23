@@ -45,7 +45,7 @@ FOR INSTALL:
 10.  make HOST=x86_64-apple-darwin11
 11.  cd ..
 12.  ./autogen.sh
-13.  ./configure --prefix=`pwd`/depends/x86_64-apple-darwin11
+13.  ./configure --prefix=$PWD/depends/x86_64-apple-darwin11
 14.  make
 15.  sudo easy_install argparse
 16.  make deploy
@@ -58,6 +58,7 @@ When finished, it will produce `DNGRcoin.dmg`
 
 
    May need to install libraries
+   
 sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
 sudo apt-get install libcap-dev
 sudo apt-get install python-dev
