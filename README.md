@@ -69,6 +69,7 @@ When finished, it will produce `DNGRcoin.dmg`
 7.   ./configure --prefix=$PWD/depends/x86_64-w64-mingw32
 8.   make
 9.   make install
+
 =========
 
 When finished, see the folder  depends/i686-w64-mingw32/bin
