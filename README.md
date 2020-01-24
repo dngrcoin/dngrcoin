@@ -72,7 +72,8 @@ When finished, it will produce `DNGRcoin.dmg`
 
 =========
 
-When finished, see the folder  depends/i686-w64-mingw32/bin
+See the folder depends/i686-w64-mingw32/bin
+
 ========================================================
 
 
@@ -112,7 +113,8 @@ sudo apt-get install g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aar
 
 =========================================``
 
-info https://github.com/bitcoin/bitcoin/tree/master/depends
+  info https://github.com/bitcoin/bitcoin/tree/master/depends
+
 =========================================
 
 License
