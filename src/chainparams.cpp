@@ -130,13 +130,16 @@ public:
         assert(genesis.hashMerkleRoot     == uint256S("0x7123ced7a772e8380a5145cde9511454a2a1fea29ff652b77561d92e1e8683d2"));
 
         vSeeds.push_back(CDNSSeedData("147.78.65.225", "147.78.65.225"));
-        vSeeds.push_back(CDNSSeedData("3.220.244.148", "3.220.244.148"));
+        vSeeds.push_back(CDNSSeedData("18.218.37.228", "18.218.37.228"));
         vSeeds.push_back(CDNSSeedData("185.189.13.35", "185.189.13.35"));
         vSeeds.push_back(CDNSSeedData("18.194.135.201", "18.194.135.201"));
         vSeeds.push_back(CDNSSeedData("3.135.233.48", "3.135.233.48"));
         vSeeds.push_back(CDNSSeedData("3.16.40.109", "3.16.40.109"));
         vSeeds.push_back(CDNSSeedData("185.255.134.243", "185.255.134.243"));
         vSeeds.push_back(CDNSSeedData("185.195.25.183", "185.195.25.183"));
+        vSeeds.push_back(CDNSSeedData("18.188.244.142", "18.188.244.142"));
+        vSeeds.push_back(CDNSSeedData("18.222.209.217", "18.222.209.217"));
+        vSeeds.push_back(CDNSSeedData("18.191.251.237", "18.191.251.237"));
 
         //vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         //vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -169,10 +172,11 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x00000a237b793f047e553def81077e61d79655fdaf51888d0fb9ca65d84061b2")) // 09 dec 2019 @ 12:00pm (UTC)
-            (    6666, uint256S("0x00000000d13b24d4dc2dcfd4d4e7fae58d2f7299f9ea335a44bb82991691e951")) // 17-Dec-19 10:58:06  (UTC)
-	    (    37022, uint256S("0x0000000024ff4bca5af3cf715371f041ae5dfb9ab24b96d8945fdf65dea3ac2e")), 
-            1579462660, // * UNIX timestamp of last checkpoint block
+            (      0, uint256S("0x00000a237b793f047e553def81077e61d79655fdaf51888d0fb9ca65d84061b2")) // 09 dec 2019 @ 12:00pm (UTC)
+            (   6666, uint256S("0x00000000d13b24d4dc2dcfd4d4e7fae58d2f7299f9ea335a44bb82991691e951")) // 17-Dec-19 10:58:06  (UTC)
+	        (  37022, uint256S("0x0000000024ff4bca5af3cf715371f041ae5dfb9ab24b96d8945fdf65dea3ac2e")) // 19th Jan 2020 19:37:40 (UTC)
+	        (  42780, uint256S("0x0000000014774dc3525e267f112edaa9a84568a247c1c1ceedcf108a15948cd8")), // 26th Jan 2020 06:09:06 (UTC)
+            1580018946, // * UNIX timestamp of last checkpoint block
             8000,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             4800 // * estimated number of transactions per day after checkpoint

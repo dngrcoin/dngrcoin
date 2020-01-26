@@ -72,7 +72,7 @@ When finished, it will produce `DNGRcoin.dmg`
 
 =========
 
-See the folder depends/i686-w64-mingw32/bin
+See the folder depends/x86_64-w64-mingw32/bin
 
 ========================================================
 
