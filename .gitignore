@@ -21,6 +21,7 @@ reset-files.bash
 *.tar.gz
 
 *.exe
+src/Makefile
 src/dngrcoin
 src/dngrcoind
 src/dngrcoin-cli
@@ -30,6 +31,7 @@ src/qt/test/test_dngrcoin-qt
 src/bench/bench_dngrcoin
 
 # autoreconf
+Makefile
 Makefile.in
 aclocal.m4
 autom4te.cache/
