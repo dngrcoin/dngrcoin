@@ -146,13 +146,13 @@ public:
 
         // DNGRcoin addresses start with 'd'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,90);
-        // DNGRcoin script addresses start with '5'
+        // DNGRcoin script addresses start with '1'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,0);
-        // DNGRcoin private keys start with '5' or 'X' (Z)
+        // DNGRcoin private keys start with '3' or 'C' 
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,80);
-        // DNGRcoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // DNGRcoin BIP32 pubkeys start with '2p5V' ('xpub' (Bitcoin defaults))
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x08)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // DNGRcoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // DNGRcoin BIP32 prvkeys start with '32Pa' ('xprv' (Bitcoin defaults))
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x09)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // DNGRcoin BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x81)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
