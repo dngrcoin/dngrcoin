@@ -174,12 +174,13 @@ public:
             boost::assign::map_list_of
             (      0, uint256S("0x00000a237b793f047e553def81077e61d79655fdaf51888d0fb9ca65d84061b2")) // 09 dec 2019 @ 12:00pm (UTC)
             (   6666, uint256S("0x00000000d13b24d4dc2dcfd4d4e7fae58d2f7299f9ea335a44bb82991691e951")) // 17-Dec-19 10:58:06  (UTC)
-	        (  37022, uint256S("0x0000000024ff4bca5af3cf715371f041ae5dfb9ab24b96d8945fdf65dea3ac2e")) // 19th Jan 2020 19:37:40 (UTC)
-	        (  42780, uint256S("0x0000000014774dc3525e267f112edaa9a84568a247c1c1ceedcf108a15948cd8")), // 26th Jan 2020 06:09:06 (UTC)
-            1580018946, // * UNIX timestamp of last checkpoint block
-            8000,       // * total number of transactions between genesis and last checkpoint
+	    (  37022, uint256S("0x0000000024ff4bca5af3cf715371f041ae5dfb9ab24b96d8945fdf65dea3ac2e")) // 19th Jan 2020 19:37:40 (UTC)
+	    (  42780, uint256S("0x0000000014774dc3525e267f112edaa9a84568a247c1c1ceedcf108a15948cd8")) // 26th Jan 2020 06:09:06 (UTC)
+            (  70123, uint256S("0x00000000b04491bcba9d2877332859401e51e7a0a852dfce489d017277971b4b")),// 25th Feb 2020 06:57:15 (UTC)
+            1582613835, // * UNIX timestamp of last checkpoint block
+            73731,      // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            4800 // * estimated number of transactions per day after checkpoint
+            4800        // * estimated number of transactions per day after checkpoint
         };
     }
 };
