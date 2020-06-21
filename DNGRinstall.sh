@@ -10,7 +10,7 @@ tar -xvzf dngrcoind-for-ubuntu-16.04.tar.gz
 
 rm -rf dngrcoind-for-ubuntu-16.04.tar.gz
 
-mkdir /home/danger/.dngrcoin
+mkdir .dngrcoin
 
 echo -e "rpcuser=dngruser\nrpcpassword=dngrpassword" >> ~/.dngrcoin/dngrcoin.conf
 
