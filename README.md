@@ -9,7 +9,9 @@ For more information:
 
 * http://dngrcoin.cf
 
-FOR INSTALL:
+For easier installation of dngrcoind, you can run the script DNGRinstall.sh
+
+FOR BUILD:
 
 1. sudo apt-get update
 2. sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils -y
