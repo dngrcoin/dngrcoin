@@ -12,7 +12,9 @@ rm -rf dngrcoind-for-ubuntu-16.04.tar.gz
 
 mkdir .dngrcoin
 
-echo -e "rpcuser=dngruser\nrpcpassword=dngrpassword" >> ~/.dngrcoin/dngrcoin.conf
+sudo apt install pwgen
+
+echo -e "rpcuser=dngruser\nrpcpassword=`pwgen -c -1 20`" >> ~/.dngrcoin/dngrcoin.conf
 
 echo "dngrcoin.conf create"
 
