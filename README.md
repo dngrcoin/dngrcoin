@@ -7,7 +7,7 @@ DNGRcoin was born out of a desire to create a cryptocurrency that is truly acces
 
 For more information:
 
-* http://dngrcoin.cf
+* http://dngrcoin.cf  http://dangercoin.org
 
 For easier installation of dngrcoind, you can run the script DNGRinstall.sh
 
