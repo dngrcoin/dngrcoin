@@ -129,17 +129,21 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000a237b793f047e553def81077e61d79655fdaf51888d0fb9ca65d84061b2"));
         assert(genesis.hashMerkleRoot     == uint256S("0x7123ced7a772e8380a5145cde9511454a2a1fea29ff652b77561d92e1e8683d2"));
 
-        vSeeds.push_back(CDNSSeedData("147.78.65.225", "147.78.65.225"));
-        vSeeds.push_back(CDNSSeedData("18.218.37.228", "18.218.37.228"));
-        vSeeds.push_back(CDNSSeedData("185.189.13.35", "185.189.13.35"));
-        vSeeds.push_back(CDNSSeedData("18.194.135.201", "18.194.135.201"));
-        vSeeds.push_back(CDNSSeedData("3.135.233.48", "3.135.233.48"));
-        vSeeds.push_back(CDNSSeedData("3.16.40.109", "3.16.40.109"));
-        vSeeds.push_back(CDNSSeedData("185.255.134.243", "185.255.134.243"));
-        vSeeds.push_back(CDNSSeedData("185.195.25.183", "185.195.25.183"));
-        vSeeds.push_back(CDNSSeedData("18.188.244.142", "18.188.244.142"));
-        vSeeds.push_back(CDNSSeedData("18.222.209.217", "18.222.209.217"));
-        vSeeds.push_back(CDNSSeedData("18.191.251.237", "18.191.251.237"));
+        vSeeds.push_back(CDNSSeedData("207.244.105.200", "207.244.105.200"));
+        vSeeds.push_back(CDNSSeedData("91.210.169.170", "91.210.169.170"));
+        vSeeds.push_back(CDNSSeedData("212.237.1.56", "212.237.1.56"));
+        vSeeds.push_back(CDNSSeedData("207.244.105.200", "207.244.105.200"));
+        vSeeds.push_back(CDNSSeedData("95.111.251.34", "95.111.251.34"));
+        vSeeds.push_back(CDNSSeedData("92.38.163.183", "92.38.163.183"));
+        vSeeds.push_back(CDNSSeedData("91.200.226.208", "91.200.226.208"));
+        vSeeds.push_back(CDNSSeedData("118.24.236.176", "118.24.236.176"));
+        vSeeds.push_back(CDNSSeedData("139.99.237.233", "139.99.237.233"));
+        vSeeds.push_back(CDNSSeedData("37.187.152.220", "37.187.152.220"));
+        vSeeds.push_back(CDNSSeedData("45.55.61.36", "45.55.61.36"));
+        vSeeds.push_back(CDNSSeedData("91.210.168.242", "91.210.168.242"));
+        vSeeds.push_back(CDNSSeedData("144.91.99.72", "144.91.99.72"));
+        vSeeds.push_back(CDNSSeedData("122.148.149.97", "122.148.149.97"));
+        vSeeds.push_back(CDNSSeedData("199.247.25.1", "199.247.25.1"));
 
         //vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         //vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -176,8 +180,9 @@ public:
             (   6666, uint256S("0x00000000d13b24d4dc2dcfd4d4e7fae58d2f7299f9ea335a44bb82991691e951")) // 17-Dec-19 10:58:06  (UTC)
 	    (  37022, uint256S("0x0000000024ff4bca5af3cf715371f041ae5dfb9ab24b96d8945fdf65dea3ac2e")) // 19th Jan 2020 19:37:40 (UTC)
 	    (  42780, uint256S("0x0000000014774dc3525e267f112edaa9a84568a247c1c1ceedcf108a15948cd8")) // 26th Jan 2020 06:09:06 (UTC)
-            (  70123, uint256S("0x00000000b04491bcba9d2877332859401e51e7a0a852dfce489d017277971b4b")),// 25th Feb 2020 06:57:15 (UTC)
-            1582613835, // * UNIX timestamp of last checkpoint block
+            (  70123, uint256S("0x00000000b04491bcba9d2877332859401e51e7a0a852dfce489d017277971b4b")) // 25th Feb 2020 06:57:15 (UTC)
+            ( 329500, uint256S("0x00000002d4b13e8c7129d9254a2dd533d414165a622b8b3639a545a7cf865d81")),// 17th Dec 2020 07:18:25 (UTC)
+            1608189505, // * UNIX timestamp of last checkpoint block
             73731,      // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             4800        // * estimated number of transactions per day after checkpoint
