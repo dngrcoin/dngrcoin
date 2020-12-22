@@ -144,6 +144,7 @@ public:
         vSeeds.push_back(CDNSSeedData("144.91.99.72", "144.91.99.72"));
         vSeeds.push_back(CDNSSeedData("122.148.149.97", "122.148.149.97"));
         vSeeds.push_back(CDNSSeedData("199.247.25.1", "199.247.25.1"));
+	vSeeds.push_back(CDNSSeedData("3.128.107.229", "3.128.107.229"));
 
         //vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         //vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
